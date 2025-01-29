@@ -8,7 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Builders\DesignPatterns.Builders.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Decorator\DesignPatterns.Decorators.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Factory\DesignPatterns.Factory.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Observer\DesignPatterns.Observer.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Repository\DesignPatterns.Repository.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Singleton\DesignPatterns.Singletons.csproj" />
+    <ProjectReference Include="..\src\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj" />
+    <ProjectReference Include="..\src\DessignPatterns.UnitOfWork\DessignPatterns.UnitOfWork.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,6 @@
 ﻿namespace DesignPatterns.Factory
 {
-    public class Class1
+    public class Creator
     {
-
     }
 }

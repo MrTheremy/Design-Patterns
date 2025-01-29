@@ -1,39 +1,40 @@
-﻿namespace DesignPatterns.Singleton
+﻿namespace DesignPatterns.Singletons
 {
-    // The Singleton class defines the `GetInstance` method that serves as an
-    // alternative to constructor and lets clients access the same instance of
-    // this class over and over.
-
-    // EN : The Singleton should always be a 'sealed' class to prevent class
-    // inheritance through external classes and also through nested classes.
+    /// <summary>
+    /// Class singleton, a singleton should always have only one instance.
+    /// We use a sealed class for a singleton to ensure no inheritance.
+    /// </summary>
     public sealed class Singleton
     {
-        // The Singleton's constructor should always be private to prevent
-        // direct construction calls with the `new` operator.
+        /// <summary>
+        /// Having a private constructor avoids new() being called
+        /// </summary>
         private Singleton()
         { }
 
-        // The Singleton's instance is stored in a static field. There there are
-        // multiple ways to initialize this field, all of them have various pros
-        // and cons. In this example we'll show the simplest of these ways,
-        // which, however, doesn't work really well in multithreaded program.
+        /// <summary>
+        /// In the static _instance the one instance gets stored
+        /// </summary>
         private static Singleton _instance;
 
-        // This is the static method that controls the access to the singleton
-        // instance. On the first run, it creates a singleton object and places
-        // it into the static field. On subsequent runs, it returns the client
-        // existing object stored in the static field.
+        /// <summary>
+        /// Creates a new instance when none is available. Returns the instance stored in the static _instance field when already created.
+        /// Can also be put in a property with only a Getter.
+        /// </summary>
+        /// <returns>returns the one instance</returns>
         public static Singleton GetInstance()
         {
             if (_instance == null)
             {
                 _instance = new Singleton();
             }
+
             return _instance;
         }
 
-        // Finally, any singleton should define some business logic, which can
-        // be executed on its instance.
+        /// <summary>
+        /// Some bussiness logic that can be added to the singleton
+        /// </summary>
         public void SomeBusinessLogic()
         {
             Console.WriteLine("Bussiness logic of the singleton");

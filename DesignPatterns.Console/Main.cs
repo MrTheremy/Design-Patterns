@@ -1,14 +1,5 @@
 ﻿// The client code.
-using DesignPatterns.Singleton;
 
-Singleton s1 = Singleton.GetInstance();
-Singleton s2 = Singleton.GetInstance();
+using DesignPatterns;
 
-if (s1 == s2)
-{
-    Console.WriteLine("Singleton works, both variables contain the same instance.");
-}
-else
-{
-    Console.WriteLine("Singleton failed, variables contain different instances.");
-}
+SingletonService.Execute();

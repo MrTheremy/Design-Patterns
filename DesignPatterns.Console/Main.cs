@@ -24,6 +24,11 @@ internal class Program
 
         Console.WriteLine("-------------------------------------------------");
 
+        Title("Observer");
+        ObserverService.Execute();
+
+        Console.WriteLine("-------------------------------------------------");
+
         static void Title(string title)
         {
             Console.ForegroundColor = ConsoleColor.Green;

@@ -1,6 +1,7 @@
 ﻿namespace DesignPatterns.Factory
 {
-    public class Creator
+    public interface IAnimal
     {
+        void Speak();
     }
 }

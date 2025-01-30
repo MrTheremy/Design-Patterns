@@ -15,7 +15,6 @@
     <ProjectReference Include="..\src\DesignPatterns.Repository\DesignPatterns.Repositories.csproj" />
     <ProjectReference Include="..\src\DesignPatterns.Singleton\DesignPatterns.Singletons.csproj" />
     <ProjectReference Include="..\src\DesignPatterns.Strategy\DesignPatterns.Strategies.csproj" />
-    <ProjectReference Include="..\src\DessignPatterns.UnitOfWork\DessignPatterns.UnitOfWorks.csproj" />
   </ItemGroup>
 
 </Project>

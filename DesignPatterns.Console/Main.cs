@@ -29,6 +29,11 @@ internal class Program
 
         Console.WriteLine("-------------------------------------------------");
 
+        Title("Repository");
+        RepositoryService.Execute();
+
+        Console.WriteLine("-------------------------------------------------");
+
         static void Title(string title)
         {
             Console.ForegroundColor = ConsoleColor.Green;

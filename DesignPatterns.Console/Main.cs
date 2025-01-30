@@ -34,6 +34,10 @@ internal class Program
 
         Console.WriteLine("-------------------------------------------------");
 
+        Title("Strategy");
+        StrategyService.Execute();
+
+        Console.WriteLine("-------------------------------------------------");
         static void Title(string title)
         {
             Console.ForegroundColor = ConsoleColor.Green;

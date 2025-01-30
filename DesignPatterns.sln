@@ -7,21 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C586C97A-956
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decorators", "src\DesignPatterns.Decorator\DesignPatterns.Decorators.csproj", "{91FD2340-3F05-4595-AEB8-B043DDA48764}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Factory", "src\DesignPatterns.Factory\DesignPatterns.Factory.csproj", "{D76C1599-8B79-4ADC-9D30-59781BB884BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Factories", "src\DesignPatterns.Factory\DesignPatterns.Factories.csproj", "{D76C1599-8B79-4ADC-9D30-59781BB884BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Observer", "src\DesignPatterns.Observer\DesignPatterns.Observer.csproj", "{A75FC629-576A-47E6-B879-18DD94284BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Observers", "src\DesignPatterns.Observer\DesignPatterns.Observers.csproj", "{A75FC629-576A-47E6-B879-18DD94284BE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Repository", "src\DesignPatterns.Repository\DesignPatterns.Repository.csproj", "{14D9E92D-44F3-42DC-A8C1-9ED3EE36FCAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Repositories", "src\DesignPatterns.Repository\DesignPatterns.Repositories.csproj", "{14D9E92D-44F3-42DC-A8C1-9ED3EE36FCAB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Singletons", "src\DesignPatterns.Singleton\DesignPatterns.Singletons.csproj", "{F11EF0A0-25E4-4995-BCBF-7FAC279CC49D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategy", "src\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{62AC74AF-B731-4DD5-AB82-C8479ECF7EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategies", "src\DesignPatterns.Strategy\DesignPatterns.Strategies.csproj", "{62AC74AF-B731-4DD5-AB82-C8479ECF7EB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DessignPatterns.UnitOfWork", "src\DessignPatterns.UnitOfWork\DessignPatterns.UnitOfWork.csproj", "{36F7AA59-CC07-4B73-89DB-30E3CF7B36BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DessignPatterns.UnitOfWorks", "src\DessignPatterns.UnitOfWork\DessignPatterns.UnitOfWorks.csproj", "{36F7AA59-CC07-4B73-89DB-30E3CF7B36BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Console", "DesignPatterns.Console\DesignPatterns.Console.csproj", "{9020BC42-1E72-4A44-9B0A-3A5BA3C458EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Console", "DesignPatterns.Console\DesignPatterns.Console.csproj", "{9020BC42-1E72-4A44-9B0A-3A5BA3C458EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builders", "src\DesignPatterns.Builders\DesignPatterns.Builders.csproj", "{CBF72281-BCC2-4EC9-A762-A8CE25F3DDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Builders", "src\DesignPatterns.Builders\DesignPatterns.Builders.csproj", "{CBF72281-BCC2-4EC9-A762-A8CE25F3DDDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
